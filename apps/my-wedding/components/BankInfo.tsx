@@ -101,8 +101,20 @@ export const BankInfoDrawer = () => {
             <Text fontStyle="italic">
               {t("This is for case when you don't like using cash")}
             </Text>
-            <Divider my="2" />              
-            <BankInputInfo label={t('Bank')} value={'TECHCOMBANK'} breakRow />
+            <Divider my="2" />
+            <BankInputInfo label={t('Bank')} value={'Vietbank'} breakRow />
+            <BankInputInfo
+              label={t('Bank Name')}
+              value={'Huynh Thi Truc Linh'}
+              breakRow
+            />
+            <BankInputInfo
+              label={t('Bank Number')}
+              value={'000000205626'}
+              breakRow
+              canCopy
+            />              
+             <BankInputInfo label={t('Bank 2')} value={'Techcombank'} breakRow />
             <BankInputInfo
               label={t('Bank Name')}
               value={'Pham Tien Duc'}
